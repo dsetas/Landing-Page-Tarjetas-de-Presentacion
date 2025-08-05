@@ -3,126 +3,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tarjeta NFC Profesional</title>
+  <title>Tu Tarjeta NFC Profesional</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --main-color: #2c3e50;
-      --accent-color: #3498db;
-      --bg-color: #f4f6f9;
-      --text-color: #333;
+      --primary-color: #1a1a2e;
+      --secondary-color: #16213e;
+      --accent-color: #0f3460;
+      --highlight-color: #e94560;
+      --text-light: #f1f1f1;
+      --text-dark: #333;
     }
+
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: 'Roboto', sans-serif;
     }
+
     body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      padding: 1rem;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
+      background: var(--secondary-color);
+      color: var(--text-light);
+      line-height: 1.6;
       padding: 2rem;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
-    header {
+
+    .card {
+      background: white;
+      color: var(--text-dark);
+      border-radius: 15px;
+      max-width: 960px;
+      margin: auto;
+      padding: 2.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero {
       text-align: center;
       margin-bottom: 2rem;
     }
-    header h1 {
-      color: var(--main-color);
-      font-size: 2rem;
+
+    .hero h1 {
+      font-size: 2.5rem;
+      color: var(--accent-color);
     }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+
     .section {
-      margin-bottom: 2rem;
+      margin-top: 2rem;
     }
+
     .section h2 {
-      font-size: 1.3rem;
-      color: var(--main-color);
+      font-size: 1.4rem;
+      color: var(--highlight-color);
       margin-bottom: 0.5rem;
     }
-    .section p, .section ul {
-      font-size: 1rem;
-      color: #555;
-    }
+
     .section ul {
-      list-style: square;
-      margin-left: 1.5rem;
+      padding-left: 1.5rem;
     }
-    .pricing-table {
+
+    .section li {
+      margin-bottom: 0.5rem;
+    }
+
+    .pricing {
+      margin-top: 1.5rem;
+    }
+
+    table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
     }
-    .pricing-table th, .pricing-table td {
-      border: 1px solid #ccc;
-      padding: 0.75rem;
+
+    th, td {
+      padding: 1rem;
+      border: 1px solid #ddd;
       text-align: center;
     }
-    .pricing-table th {
-      background-color: var(--main-color);
+
+    th {
+      background: var(--accent-color);
       color: white;
     }
+
     .cta {
       text-align: center;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
     }
+
     .cta a {
-      background-color: var(--accent-color);
+      background: var(--highlight-color);
       color: white;
-      padding: 0.8rem 1.5rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
       text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
+      border-radius: 10px;
+      transition: background 0.3s ease;
     }
+
     .cta a:hover {
-      background-color: #217dbb;
+      background: #c43046;
     }
+
     footer {
       text-align: center;
-      font-size: 0.8rem;
-      color: #aaa;
       margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Tarjeta de Presentación NFC + Landing Page Profesional</h1>
-      <p>La forma más moderna, profesional y efectiva de presentarte</p>
-    </header>
+  <div class="card">
+    <div class="hero">
+      <h1>Tarjeta de Presentación NFC + Landing Page</h1>
+      <p>Una experiencia moderna, elegante y profesional para potenciar tu presencia.</p>
+    </div>
 
     <div class="section">
       <h2>¿Qué incluye el servicio?</h2>
       <ul>
-        <li><strong>Tarjeta NFC personalizada:</strong> Diseño elegante, materiales duraderos y código QR.</li>
-        <li><strong>Landing Page:</strong> Adaptada a móviles, con tus datos, foto, redes, portafolio y más.</li>
-        <li><strong>Asesoría personal:</strong> Acompañamiento en diseño, estructura y publicación.</li>
+        <li><strong>Tarjeta física NFC + Código QR</strong> con tu identidad profesional.</li>
+        <li><strong>Landing Page personalizada</strong> optimizada para móviles y navegadores.</li>
+        <li><strong>Diseño visual elegante</strong> acorde a tu estilo profesional.</li>
+        <li><strong>Actualizaciones bimestrales</strong> por un año.</li>
       </ul>
     </div>
 
     <div class="section">
-      <h2>¿Por qué necesitas una tarjeta NFC?</h2>
+      <h2>¿Por qué una tarjeta NFC?</h2>
       <ul>
-        <li>✅ Impacto inmediato con una presentación profesional y moderna.</li>
-        <li>✅ Networking sin fricción, con un solo toque o escaneo.</li>
-        <li>✅ Toda tu presencia digital en un solo lugar.</li>
-        <li>✅ Evita las tarjetas de papel que se pierden.</li>
-        <li>✅ Diferenciación real con tecnología de última generación.</li>
+        <li>Impresión inmediata y profesional al instante.</li>
+        <li>Acceso digital con un solo toque o escaneo.</li>
+        <li>Olvídate del papel: todo en tu Landing.</li>
+        <li>Ideal para networking, ferias, reuniones.</li>
       </ul>
     </div>
 
-    <div class="section">
-      <h2>Planes y Precios (anuales con actualizaciones bimestrales)</h2>
-      <table class="pricing-table">
+    <div class="section pricing">
+      <h2>Planes y precios</h2>
+      <table>
         <thead>
           <tr>
             <th>Plan</th>
@@ -133,17 +161,17 @@
         <tbody>
           <tr>
             <td>Básico</td>
-            <td>Tarjeta NFC + Landing con datos e imagen</td>
+            <td>Datos, foto, contacto, QR</td>
             <td>Q150.00</td>
           </tr>
           <tr>
             <td>Profesional</td>
-            <td>+ Redes sociales, WhatsApp, enlaces, QR</td>
+            <td>+ Redes, enlaces, portafolio</td>
             <td>Q200.00</td>
           </tr>
           <tr>
             <td>Premium</td>
-            <td>+ Video, mapa, agenda, formulario</td>
+            <td>+ Video, ubicación, formulario</td>
             <td>Q275.00</td>
           </tr>
         </tbody>
@@ -151,40 +179,30 @@
     </div>
 
     <div class="section">
-      <h2>¿Cómo se usa?</h2>
+      <h2>¿Quién ya lo usa?</h2>
       <ul>
-        <li>1. Acerca la tarjeta al celular del cliente.</li>
-        <li>2. Se abre tu página personalizada.</li>
-        <li>3. Si no tiene NFC, escanean el QR.</li>
-        <li>4. Tu contacto queda grabado en segundos.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>¿Quién ya lo está usando?</h2>
-      <ul>
-        <li>• Profesionales independientes</li>
-        <li>• Coaches y consultores</li>
-        <li>• Empresas con equipo comercial</li>
-        <li>• Médicos, abogados, arquitectos</li>
+        <li>Profesionales independientes</li>
+        <li>Consultores y coaches</li>
+        <li>Médicos, abogados, arquitectos</li>
+        <li>Ejecutivos y emprendedores</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Seguridad y privacidad</h2>
       <ul>
-        <li>• Hosting seguro</li>
-        <li>• Control total sobre lo que compartes</li>
-        <li>• Sin venta de datos personales</li>
+        <li>Hosting seguro y profesional</li>
+        <li>Sin compartir tus datos con terceros</li>
+        <li>Control total sobre lo que publicas</li>
       </ul>
     </div>
 
     <div class="cta">
-      <a href="https://wa.me/502XXXXXXXX" target="_blank">📲 Contáctanos por WhatsApp</a>
+      <a href="https://wa.me/502XXXXXXXX" target="_blank">📲 Solicita tu Landing NFC ahora</a>
     </div>
 
     <footer>
-      <p>© 2025. Todos los derechos reservados.</p>
+      <p>© 2025. Todos los derechos reservados. Diseñado para profesionales como tú.</p>
     </footer>
   </div>
 </body>
