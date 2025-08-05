@@ -3,99 +3,189 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tarjetas NFC Profesionales</title>
+  <title>Tarjeta NFC Profesional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --main-color: #2c3e50;
+      --accent-color: #3498db;
+      --bg-color: #f4f6f9;
+      --text-color: #333;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 1rem;
     }
-    header {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    section {
-      padding: 2rem 1rem;
+    .container {
       max-width: 900px;
       margin: auto;
-    }
-    .benefits, .testimonials {
-      background: #ffffff;
+      padding: 2rem;
+      background: #fff;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      margin: 2rem 0;
-      padding: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
-    .whatsapp-button {
-      display: block;
-      width: max-content;
-      margin: 2rem auto;
-      padding: 0.75rem 1.5rem;
-      background-color: #25D366;
-      color: white;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
+    header {
       text-align: center;
-      transition: background-color 0.3s;
+      margin-bottom: 2rem;
     }
-    .whatsapp-button:hover {
-      background-color: #1ebe57;
+    header h1 {
+      color: var(--main-color);
+      font-size: 2rem;
     }
-    img.simulation {
-      display: block;
-      max-width: 100%;
-      margin: 1rem auto;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      font-size: 1.3rem;
+      color: var(--main-color);
+      margin-bottom: 0.5rem;
+    }
+    .section p, .section ul {
+      font-size: 1rem;
+      color: #555;
+    }
+    .section ul {
+      list-style: square;
+      margin-left: 1.5rem;
+    }
+    .pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .pricing-table th, .pricing-table td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    .pricing-table th {
+      background-color: var(--main-color);
+      color: white;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background-color: var(--accent-color);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #217dbb;
     }
     footer {
       text-align: center;
-      font-size: 0.85rem;
-      color: #666;
-      padding: 1rem 0;
+      font-size: 0.8rem;
+      color: #aaa;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>Tarjeta de Presentación NFC + Landing Page Profesional</h1>
+      <p>La forma más moderna, profesional y efectiva de presentarte</p>
+    </header>
 
-  <header>
-    <h1>Bienvenido a tus Tarjetas NFC Personalizadas</h1>
-    <p>Conectate con tus clienntes un toque tecnológico</p>
-  </header>
-
-  <section>
-    <img src="https://via.placeholder.com/600x300?text=Simulacion+Tarjeta+NFC" alt="Simulación tarjeta NFC" class="simulation" />
-    
-    <div class="benefits">
-      <h2>¿Por qué usar tarjetas NFC?</h2>
+    <div class="section">
+      <h2>¿Qué incluye el servicio?</h2>
       <ul>
-        <li>Contacto instantáneo con tus clientes o audiencia</li>
-        <li>Diseño personalizado con mensaje personalizado</li>
-        <li>Ideal para profesionales, pastores, músicos y emprendedores</li>
-        <li>Sin apps ni instalaciones — solo un toque</li>
+        <li><strong>Tarjeta NFC personalizada:</strong> Diseño elegante, materiales duraderos y código QR.</li>
+        <li><strong>Landing Page:</strong> Adaptada a móviles, con tus datos, foto, redes, portafolio y más.</li>
+        <li><strong>Asesoría personal:</strong> Acompañamiento en diseño, estructura y publicación.</li>
       </ul>
     </div>
 
-    <a href="https://wa.me/502XXXXXXXX" class="whatsapp-button" target="_blank">¡Contáctame por WhatsApp!</a>
-
-    <div class="testimonials">
-      <h2>Testimonios</h2>
-      <p><strong>Juan Gutierrez, emprendedor:</strong> “Mi tarjeta NFC ha sido una herramienta poderosa para mi negocio .”</p>
-      <p><strong>Ana Lucía, cantante cristiana:</strong> “Ahora mis seguidores acceden a mi música y devocionales en segundos.”</p>
+    <div class="section">
+      <h2>¿Por qué necesitas una tarjeta NFC?</h2>
+      <ul>
+        <li>✅ Impacto inmediato con una presentación profesional y moderna.</li>
+        <li>✅ Networking sin fricción, con un solo toque o escaneo.</li>
+        <li>✅ Toda tu presencia digital en un solo lugar.</li>
+        <li>✅ Evita las tarjetas de papel que se pierden.</li>
+        <li>✅ Diferenciación real con tecnología de última generación.</li>
+      </ul>
     </div>
-  </section>
 
-  <footer>
-    © 2025 Josué Zepeda | Tarjetas NFC con propósito
-  </footer>
+    <div class="section">
+      <h2>Planes y Precios (anuales con actualizaciones bimestrales)</h2>
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Incluye</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Básico</td>
+            <td>Tarjeta NFC + Landing con datos e imagen</td>
+            <td>Q150.00</td>
+          </tr>
+          <tr>
+            <td>Profesional</td>
+            <td>+ Redes sociales, WhatsApp, enlaces, QR</td>
+            <td>Q200.00</td>
+          </tr>
+          <tr>
+            <td>Premium</td>
+            <td>+ Video, mapa, agenda, formulario</td>
+            <td>Q275.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
+    <div class="section">
+      <h2>¿Cómo se usa?</h2>
+      <ul>
+        <li>1. Acerca la tarjeta al celular del cliente.</li>
+        <li>2. Se abre tu página personalizada.</li>
+        <li>3. Si no tiene NFC, escanean el QR.</li>
+        <li>4. Tu contacto queda grabado en segundos.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>¿Quién ya lo está usando?</h2>
+      <ul>
+        <li>• Profesionales independientes</li>
+        <li>• Coaches y consultores</li>
+        <li>• Empresas con equipo comercial</li>
+        <li>• Médicos, abogados, arquitectos</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Seguridad y privacidad</h2>
+      <ul>
+        <li>• Hosting seguro</li>
+        <li>• Control total sobre lo que compartes</li>
+        <li>• Sin venta de datos personales</li>
+      </ul>
+    </div>
+
+    <div class="cta">
+      <a href="https://wa.me/502XXXXXXXX" target="_blank">📲 Contáctanos por WhatsApp</a>
+    </div>
+
+    <footer>
+      <p>© 2025. Todos los derechos reservados.</p>
+    </footer>
+  </div>
 </body>
 </html>
