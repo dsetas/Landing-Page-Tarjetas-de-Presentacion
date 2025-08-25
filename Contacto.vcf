@@ -1,8 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Dsetas;Zepeda L;Josué A.;Lic.
-FN:Lic. Josué A. Zepeda L
+N:Zepeda;Josué;;;
+FN: Lic. Josué Zepeda
+ORG:EDUTECH
 TEL;TYPE=CELL:+50241900556
-EMAIL;TYPE=INTERNET:cdegotie@gmail.com
-URL:https://dsetas.github.io/Landing-Page-Tarjetas-de-Presentacion
+EMAIL;TYPE=WORK:cdegotie@gmail.com
+URL:https://dsetas.github.io/Landing-Page-Tarjetas-de-Presentacion/
+ADR;TYPE=WORK:;;Jalapa;;;Guatemala
+PHOTO;VALUE=URI:https://dsetas.github.io/Landing-Page-Tarjetas-de-Presentacion/logo.png
 END:VCARD
+
